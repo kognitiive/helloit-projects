@@ -1,4 +1,62 @@
-.trust {background-color: black;}
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root {
+  --white-color: rgba(255, 255, 255, 0.9);
+  --background-body: #1E252B;
+  --primary-color: rgba(255, 255, 255, 0.55);
+  --button-color:  rgba(255, 255, 255, 0.78);
+  --active-background: #FF6E30;
+  --active-color: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-logo {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+.header-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--button-color);
+  background-color: transparent;
+  border: none;
+  opacity: 0.78;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+.header-btn:hover, .header-btn:focus {
+  background-color: var(--active-background);
+  color: var(--active-color);
+  opacity: 1;
+  
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -6,7 +64,7 @@
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
