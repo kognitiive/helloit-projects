@@ -2,15 +2,15 @@
 font-family: 'Roboto', sans-serif; */
 :root {
   --white-color: rgba(255, 255, 255, 0.9);
-  --background-body: #1E252B;
+  --background-body: #1e252b;
   --primary-color: rgba(255, 255, 255, 0.55);
-  --button-color:  rgba(255, 255, 255, 0.78);
-  --active-background: #FF6E30;
+  --button-color: rgba(255, 255, 255, 0.78);
+  --active-background: #ff6e30;
   --active-color: #fff;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--background-body);
 }
 
@@ -50,11 +50,30 @@ ul {
   border-radius: 8px;
 }
 
-.header-btn:hover, .header-btn:focus {
+.header-btn:hover,
+.header-btn:focus {
   background-color: var(--active-background);
   color: var(--active-color);
   opacity: 1;
-  
+}
+
+.search-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--button-color);
+  background-color: transparent;
+  border: none;
+  opacity: 0.78;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+.search-btn:hover,
+.search-btn:focus {
+  background-color: var(--active-background);
+  color: var(--active-color);
+  opacity: 1;
 }
 
 .visually-hidden {
