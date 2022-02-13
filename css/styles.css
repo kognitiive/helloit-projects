@@ -38,20 +38,22 @@ ul {
   color: var(--primary-color);
 }
 
-.header-btn {
+.btn {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--button-color);
+  color: var(--active-background);
   background-color: transparent;
   border: none;
   opacity: 0.78;
   padding: 12px 28px;
   border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 }
 
-.header-btn:hover,
-.header-btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--active-background);
   color: var(--active-color);
   opacity: 1;
