@@ -9,6 +9,8 @@ font-family: 'Roboto', sans-serif; */
   --active-color: #fff;
   --subgict-color: rgba(255, 165, 55, 0.55);
   --trust-white-color: rgba(255, 255, 255, 0.8);
+  --about-us-color: rgba(255, 253, 253, 0.78);
+ --about-us-colot-two: rgba(255, 253, 253, 0.55);
 }
 
 body {
@@ -160,4 +162,27 @@ ul {
   font-size: 18px;
   line-height: 1.6;
   color: var(--primary-color);
+}
+
+
+/*====ABOUT US====*/
+.about-us-name {
+  font-weight: 500;
+font-size: 26px;
+line-height: 1.5;
+letter-spacing: 0.015em;
+color: var(--about-us-color);
+}
+.speciality {
+  font-weight: normal;
+font-size: 16px;
+line-height: 1.5;
+color: var(--about-us-colot-two);
+}
+.about-us-text {
+font-weight: normal;
+font-size: 14px;
+line-height: 2.14;
+letter-spacing: 0.015em;
+color:var(--button-color);
 }
