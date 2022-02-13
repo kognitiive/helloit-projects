@@ -75,3 +75,26 @@ ul {
 /* .class{
   position: absolute;
 } */
+
+
+/* hero -- start */
+
+.hero h1 {
+  color: var(--white-color);
+
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.hero-title-accent {
+  color: var(--active-background);
+}
+
+.hero-description {
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* hero -- end */
