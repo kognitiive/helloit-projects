@@ -1,0 +1,36 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-Group {
+  width: 1.181640625em;
+}
+
+.icon-logos_wordpress {
+  width: 4.4091796875em;
+}
+
+.icon-logos_google {
+  width: 3.078125em;
+}
+
+.icon-logos_slack {
+  width: 3.958984375em;
+}
+
+.icon-logos_microsoft {
+  width: 4.595703125em;
+}
